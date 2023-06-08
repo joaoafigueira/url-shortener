@@ -1,2 +1,3 @@
-# url-shortener
-An url shortener in javascript.
+# Url Shortener
+
+An url shortener to learn javascript.
