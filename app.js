@@ -29,8 +29,6 @@ app.get('/:shortUrl', async (req,res) => {
    shortUrl.clicks++
    shortUrl.save();
 
-   console.log(shortUrl)
-
    res.redirect(shortUrl.complete);
 })
 
